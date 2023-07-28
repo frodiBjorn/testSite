@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
+    <title>Test site</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="bg">
+        <div class="wrapper">
+          <header class="header">
+            <div class="logo"></div>
+            <div class="burger">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="12"
+                viewBox="0 0 22 12"
+                fill="none"
+              >
+                <rect width="22" height="2" fill="white" />
+                <rect y="10" width="22" height="2" fill="white" />
+              </svg>
+            </div>
+            <nav class="navigation">
+              <div class="navigation-top">
+                <div class="logo-dark"></div>
+                <div class="cross"></div>
+              </div>
+              <ul class="navigation__list">
+                <li class="navigation__item">
+                  <a href="#section1" class="navigation__link">Как это работает</a>
+                  <div class="arrow"></div>
+                </li>
+                <li class="navigation__item">
+                  <a href="#section2" class="navigation__link">3-й блок</a>
+                  <div class="arrow"></div>
+                </li>
+                <li class="navigation__item">
+                  <a href="#" class="navigation__link">Вопросы и ответы</a>
+                  <div class="arrow"></div>
+                </li>
+                <li class="navigation__item">
+                  <a href="#" class="navigation__link">Форма</a>
+                  <div class="arrow"></div>
+                </li>
+              </ul>
+            </nav>
+          </header>
+          <div class="main-content">
+            <h1 class="main-content__title headline1">
+              Говорят, никогда не поздно сменить профессию
+            </h1>
+            <div class="main-content__paragraph">
+              Сделай круто тестовое задание и у тебя получится
+            </div>
+            <button class="main-content__button">Проще простого!</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="section" id="section1">
+      <div class="wrapper">
+        <div class="how-it-works">
+          <h2 class="how-it-works__title headline2">Как это работает</h2>
+          <div class="how-it-works__items">
+            <div class="how-it-works__item">
+              <div class="item__image">
+                <img src="./assets/images/waiting.png" alt="waiting" />
+              </div>
+              <div>
+                <h6 class="item__title headline6">Прочитай задание внимательно</h6>
+                <div class="item__paragraph">
+                  Думаю у тебя не займет это больше двух-трех минут
+                </div>
+              </div>
+            </div>
+            <div class="how-it-works__item">
+              <div class="item__image">
+                <img
+                  src="./assets/images/delivery-truck.png"
+                  alt="delivery-truck"
+                />
+              </div>
+             <div>
+                <h6 class="item__title headline6">Изучи весь макет заранее</h6>
+                <div class="item__paragraph">
+                  Подумай как это будет работать на разных разрешениях и при
+                  скролле
+                </div>
+             </div>
+            </div>
+            <div class="how-it-works__item">
+              <div class="item__image">
+                <img src="./assets/images/secure.png" alt="secure" />
+              </div>
+              <div>
+                <h6 class="item__title headline6">Сделай хорошо</h6>
+                <div class="item__paragraph">
+                  Чтобы мы могли тебе доверить подобные задачи в будущем
+                </div>
+              </div>
+            </div>
+            <div class="how-it-works__item">
+              <div class="item__image">
+                <img src="./assets/images/money-bags.png" alt="money-bags" />
+              </div>
+           <div>
+                <h6 class="item__title headline6">Получи предложение</h6>
+                <div class="item__paragraph">
+                  Ну тут все просто, не я придумал правила, но думаю так и
+                  будет)))
+                </div>
+           </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="section2">
+      <div class="wrapper">
+        <div class="third-block">
+          <div class="third-block__left">
+            <h3 class="left__title headline3">Круто, ты дошел до третьего блока</h3>
+            <div class="left__paragraph">
+              63% опрошенных пользовались кредитами из-за того, что не могли
+              покрыть непредвиденные расходы свыше 15 000 ₽.
+              <br />
+              <br />
+              Доступ к заработанным деньгам помогает отказаться от кредитов и
+              экономить деньги на процентах и штрафах.
+            </div>
+            <div class="left__paragraph"></div>
+          </div>
+          <div class="third-block__right">
+            <img
+              src="./assets/images/2_1.png"
+              alt="First Image"
+              class="image-1"
+            />
+            <img
+              src="./assets/images/2_2.png"
+              alt="Second Image"
+              class="image-2"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-reviews">
+      <div class="wrapper wrapper-reviews">
+        <div class="reviews">
+          <h2 class="reviews__title headline2">Отзывы</h2>
+          <div class="slider">
+            <div class="slider__content">
+              <div class="frame">
+                <div class="slide">
+                  <div class="slide__top">
+                    <img
+                      class="top__img"
+                      src="./assets/images/avatars/anon.png"
+                      alt="avatar"
+                    />
+                    <div>
+                      <h6 class="top__name headline6">Константинов Михаил Павлович</h6>
+                      <div class="top__city">Санкт-Петербург</div>
+                    </div>
+                  </div>
+                  <div class="slide__bottom">
+                    Каждый из нас понимает очевидную вещь: перспективное
+                    планирование предоставляет широкие возможности для анализа
+                    существующих паттернов поведения. В своём стремлении
+                    улучшить пользовательский опыт мы
+                  </div>
+                </div>
+              </div>
+              <div class="frame">
+                <div class="slide">
+                  <div class="slide__top">
+                    <img
+                      class="top__img"
+                      src="./assets/images/avatars/dalnoboyshik.png"
+                      alt="avatar"
+                    />
+                    <div>
+                      <h6 class="top__name headline6">Иван Иванов</h6>
+                      <div class="top__city">Санкт-Петербург</div>
+                    </div>
+                  </div>
+                  <div class="slide__bottom">
+                    Каждый из нас понимает очевидную вещь: перспективное
+                    планирование предоставляет широкие возможности для анализа
+                    существующих паттернов поведения. В своём стремлении
+                    улучшить пользовательский опыт мы упускаем, что активно
+                    развивающиеся страны третьего мира призваны к ответу.
+                  </div>
+                </div>
+              </div>
+              <div class="frame">
+                <div class="slide">
+                  <div class="slide__top">
+                    <img
+                      class="top__img"
+                      src="./assets/images/avatars/kamaz.png"
+                      alt="avatar"
+                    />
+                    <div>
+                      <h6 class="top__name headline6">Артем Корнилов</h6>
+                      <div class="top__city">Самара</div>
+                    </div>
+                  </div>
+                  <div class="slide__bottom">
+                    Каждый из нас понимает очевидную вещь: перспективное
+                    планирование предоставляет широкие возможности для анализа
+                    существующих паттернов поведения.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider-controls">
+              <button class="slider-prev">
+                <img src="./assets/images/arrow-left.png" alt="arrow-left" />
+              </button>
+              <button class="slider-next">
+                <img src="./assets/images/arrow-right.png" alt="arrow-right" />
+              </button>
+            </div>
+            <div class="slider-dots">
+              <button class="slider-dot active"></button>
+              <button class="slider-dot"></button>
+              <button class="slider-dot"></button>
+              <button class="slider-dot"></button>
+              <button class="slider-dot"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">© 2021 Лаборатория интернет</footer>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
