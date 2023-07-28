@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: 'GraphickLCG-Regular';
-  src: url('/assets/fonts/GraphikLCG-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/GraphikLCG-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'GraphickLCG-Semibold';
-  src: url('/assets/fonts/GraphikLCG-Semibold.ttf') format('truetype');
+  src: url('../assets/fonts/GraphikLCG-Semibold.ttf') format('truetype');
 }
 
 :root {
@@ -719,9 +719,11 @@ ul li a {
   .wrapper {
     max-width: 288px;
   }
-.navigation.active{
-  width: 320px;
-}
+
+  .navigation.active {
+    width: 320px;
+  }
+
   .main {
     height: 509px;
     background-image: url('../assets/images/main-photo375.png');
